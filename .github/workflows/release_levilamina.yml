@@ -54,7 +54,7 @@ jobs:
       - run: |
           cp CHANGELOG.md LICENSE.md README.md bin/
 
-      - name: Archive release
+      - name: Archive release 
         run: |
           cd bin
           zip -r ../levilamina-windows-x64.zip *
